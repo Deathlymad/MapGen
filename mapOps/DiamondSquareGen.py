@@ -88,6 +88,8 @@ def diamond_square(m, resolution, computePoint):
                 m[i,j] = _square_displace(m, i, j, half_step, computePoint)
 
 
+#technically this should have preconditions that should be verified.
+
 class DiamondSquareGen(AbstractSidebar):
     
     def __init__(self):
