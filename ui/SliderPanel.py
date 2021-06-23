@@ -7,7 +7,7 @@ class SliderPanel(wx.Panel):
         
         self.MainSizer = wx.BoxSizer(wx.VERTICAL)
         
-        self.title = wx.StaticText(self, label = title)
+        self.title = wx.StaticText(self, label = title, style=wx.ALIGN_CENTRE)
         self.slider = wx.Slider(self, minValue=min, maxValue=max, value=min)
         
         self.slider.Bind(wx.EVT_SCROLL, onSlide)

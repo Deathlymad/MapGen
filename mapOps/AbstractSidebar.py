@@ -23,7 +23,7 @@ class AbstractSidebar():
             return self.sidebarPanel
         else:
             panel = wx.Panel(parent)
-            panel.SetBackgroundColour((200, 20, 20))
+            
             sizer = wx.BoxSizer(wx.VERTICAL)
             
             objects = self.addSidebarProperties(panel)
