@@ -1,0 +1,2 @@
+from .SetupMapBuffer import SetupMapBuffer
+from .DiamondSquareGen import DiamondSquareGen
